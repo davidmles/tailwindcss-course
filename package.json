@@ -1,4 +1,8 @@
 {
+  "scripts": {
+    "watch": "tailwindcss -i src/tailwind.css -o style.css --watch",
+    "minify": "tailwindcss -i src/tailwind.css -o style.css --minify"
+  },
   "devDependencies": {
     "@tailwindcss/forms": "^0.5.3",
     "@tailwindcss/typography": "^0.5.9",

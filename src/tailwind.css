@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply bg-red-700 text-white px-5 py-3 inline-block mt-10 rounded-lg shadow-lg font-semibold text-sm w-full sm:w-auto md:px-10 md:py-4 md:text-lg hover:bg-red-800 focus:outline-none focus:ring focus:ring-offset-2 focus:ring-red-800 focus:ring-opacity-50 active:bg-red-900 dark:focus:ring-red-400 dark:ring-offset-gray-900;
+  }
+}
